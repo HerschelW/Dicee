@@ -12,9 +12,9 @@ console.log(b);
 
 
 if (a>b) {
-    document.getElementById("refresh").innerHTML = "Player 1 Wins!";
+    document.getElementById("refresh").innerHTML = "🚩 Player 1 Wins!";
 }   else if (b>a) {
-    document.getElementById("refresh").innerHTML = "Player 2 Wins!";
+    document.getElementById("refresh").innerHTML = "Player 2 Wins! 🚩";
 }   else {
     document.getElementById("refresh").innerHTML = "Tie!";
 }
